@@ -1,6 +1,10 @@
+* {
+    font-family: "BwNistaInt-xBd"; 
+}
+
 .grid {
     display: grid;
-    grid-template-rows: 4fr 2fr 2fr 2fr;
+    grid-template-rows: 1% 3fr 2fr 2fr 2fr;
     height: 100%;
     color: black;
 
@@ -15,13 +19,14 @@
 }*/
 
 .nav{
-    width: 99%;
+    top:0;
+    width: 100%;
     border-collapse: collapse;
     position: fixed;
 }
 
 td {
-    height: 50px;
+    height: 60px;
     text-align: center;
     background-color: blueviolet;
 }
@@ -31,7 +36,14 @@ td {
 }
 
 td>a {
+    font-weight: bolder;
+    font-size: 18px;
+    text-decoration: none;
     color: white;
+}
+
+a:hover {
+    color: purple;
 }
 
 .a {
@@ -43,14 +55,16 @@ td>a {
     background-size: cover;
     background-position: center;
     color:white;
-    text-align: center;
 }
 
 img {
+    float: left;
     position: relative;
-    top: 20px;
+    top: 50px;
     width: 300px;
-    height: 300px;
+    height: 350px;
+    margin-right: 20px;
+    border-radius: 200px;
 }
 
 /*.bg-text {
@@ -72,13 +86,52 @@ img {
 }
 
 .a>p{
+    padding-bottom: 0px;
     padding-top:100px;
+    padding-left: 300px;
     font-size: 100px;
 }
 
 .b{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
+    padding-top: 40px;
+    padding-left: 40px;
+    background-color: rgb(226, 220, 220);
+    font-weight: bold;
+    color: black;
+}
+
+.c {
+    background-color: #4612cc;
+}
+
+.bar {
+    color:white;
+    background-color: blueviolet;
+    height: 20px;
+    width: 60%;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.js, .python, .html, .css{
+    margin-left: 0px;
+    background-color: purple;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.js {
+    width: 50%;
+}
+
+.python {
+    width: 80%;
+}
+
+.html {
+    width: 90%;
+}
+
+.css {
+    width: 60%;
 }
