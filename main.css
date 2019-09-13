@@ -4,7 +4,7 @@
 
 .grid {
     display: grid;
-    grid-template-rows: 1% 3fr 2fr 2fr 2fr;
+    grid-template-rows: 1% 2fr 2fr 1fr 5%;
     height: 100%;
     color: black;
 
@@ -57,10 +57,10 @@ a:hover {
     color:white;
 }
 
-img {
+.a img {
     float: left;
     position: relative;
-    top: 50px;
+    top: 30px;
     width: 300px;
     height: 350px;
     margin-right: 20px;
@@ -88,20 +88,18 @@ img {
 .a>p{
     padding-bottom: 0px;
     padding-top:100px;
-    padding-left: 300px;
+    padding-left: 30%;
     font-size: 100px;
 }
 
-.b{
+.b, .c{
+    font-family: 'Gayathri', sans-serif;
     padding-top: 40px;
-    padding-left: 40px;
+    padding-left: 60px;
     background-color: rgb(226, 220, 220);
     font-weight: bold;
+    font-size: 20px;
     color: black;
-}
-
-.c {
-    background-color: #4612cc;
 }
 
 .bar {
@@ -113,14 +111,14 @@ img {
     text-align: center;
 }
 
-.js, .python, .html, .css{
+.per{
     margin-left: 0px;
     background-color: purple;
     height: 100%;
     border-radius: 20px;
 }
 
-.js {
+.js, .line {
     width: 50%;
 }
 
@@ -135,3 +133,29 @@ img {
 .css {
     width: 60%;
 }
+
+.git {
+    width: 90%;
+}
+
+.d {
+    background-color: blueviolet;
+}
+
+.img1 {
+    float: left;
+    margin-right: 15%;
+}
+
+.img {
+    display: flex;
+}
+
+/*.img div {
+    margin-left: 30px;
+}
+
+.img>div>img {
+    height: 20%;
+    width: 10%;
+}*/
