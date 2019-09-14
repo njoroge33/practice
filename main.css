@@ -137,6 +137,10 @@ a:hover, .img a:hover{
     padding: 10px;
 }
 
+.par img{
+    width: 300px;
+    height: 300px;
+}
 .footer {
     display: flex;
     flex-direction: row;
